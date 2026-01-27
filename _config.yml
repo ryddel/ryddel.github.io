@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Test homepage
-description: Test!
+title: Cayman theme
+description: Test Page
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
