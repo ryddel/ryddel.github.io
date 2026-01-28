@@ -3,6 +3,6 @@ remote_theme: pages-themes/minimal@v0.2.0
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
 logo: /assets/img/headshot_circle.png
 gem "github-pages", group: :jekyll_plugins
-title: Test page
-description: This is just a test page
-show_downloads: true
+title: Aleksei R.
+description: Electronics Developer | PCB Designer
+show_downloads: false
