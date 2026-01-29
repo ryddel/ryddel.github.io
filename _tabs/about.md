@@ -4,8 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+![Logo Banner](/assets/headers/about-banner.png)
+
 ## Electronics Developer | PCB Designer
-##
+
 ## Professional Summary
 Dedicated and detail-oriented electronics developer with expertise in PCB design and development. Proven track record of delivering high-quality electronic solutions on time and within budget while ensuring robust performance and compliance with industry standards.
 
