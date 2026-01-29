@@ -2,7 +2,6 @@
 title: List of open source hardware tools
 description: Open source hardware tools.
 date: 2026-01-29 15:00:00 +0600
-author: ryddel
 categories: [Links, PCB]
 tags: [pcb]     # TAG names should always be lowercase
 ---
