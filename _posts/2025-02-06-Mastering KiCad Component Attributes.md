@@ -37,7 +37,7 @@ This attribute tells KiCad: "This component should not appear in the final BOM.
 - Leaves footprint and placement intact
 
 📌 Default behavior:  
-In modern KiCad libraries (e.g., mounting holes, fiducials, silkscreen marks), this attribute is enabled by default.
+In modern KiCad libraries (for such elements as mounting holes, fiducials, silkscreen marks), this attribute is enabled by default.
 
 💡 When to use it:  
 You know for sure that a part doesn’t require a purchase order. For example:
@@ -50,7 +50,7 @@ You know for sure that a part doesn’t require a purchase order. For example:
 - Check "Exclude from bill of material"
 - Save the change
 
-![[/assets/articles/FEB06-26-attributes.png]]
+![attributes](/assets/articles/FEB06-26-attributes.png)
 
 > 🔍 Tip: This is safe and non-disruptive — ideal for standard non-functional elements.
 
@@ -84,9 +84,9 @@ You have a mounting hole that’s used to fasten the board to a chassis. You w
 - In the Properties panel → enable "Exclude from board"
 - The component will disappear from the PCB but stay in the BOM
 
-![[/assets/articles/FEB06-26-panel_preperty_view.png]]
+![panel preperty view](/assets/articles/FEB06-26-panel_preperty_view.png)
 
-![[/assets/articles/FEB06-26-kicad_property_panel.png]]
+![kicad property panel](/assets/articles/FEB06-26-kicad_property_panel.png)
 
 > 📊 Pro Tip: Use this when you need to track consumables like screws, washers, or adhesives — even if they aren’t placed on the board.
 
@@ -96,7 +96,6 @@ You have a mounting hole that’s used to fasten the board to a chassis. You w
 
 _(The "Mark with a red cross" flag)_
 
-This one is the most powerful — and sometimes the most confusing.
 
 ✅ What it does:
 
@@ -126,9 +125,8 @@ So you:
 - Check "Do Not Populate"
 - The red cross appears on the schematic automatically
 
-![[/assets/articles/FEB06-26-do_not_install_mark.png]]
+![do_not_install_mark](/assets/articles/FEB06-26-do_not_install_mark.png)
 
-> ⚠️ Note: Unlike "Exclude from Bill of Material," this attribute does not remove the footprint — it only flags the component.
 
 ---
 
@@ -138,8 +136,6 @@ So you:
 2. Open the Properties panel (in newer KiCad versions, it appears on the left side of the workspace)
 3. Look for the relevant attribute under "Attributes" or "General" tab
 4. Toggle the option as needed
-
-> 💡 Pro Tip: Use keyboard shortcuts like `Ctrl + Click` to quickly open properties from the layout.
 
 ---
 
