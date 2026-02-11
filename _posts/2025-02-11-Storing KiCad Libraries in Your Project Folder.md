@@ -1,13 +1,12 @@
 ---
 title: Storing KiCad Libraries in Your Project Folder
-description: Learn how to store KiCad libraries directly in your project folder to improve portability, version control, and independence. Perfect for sharing designs, cloning projects, and avoiding dependency issues.
-aliases:
+description: "Learn how to store KiCad libraries directly in your project folder to improve portability, version control, and independence. Perfect for sharing designs, cloning projects, and avoiding dependency issues."
+date: 2026-02-11 12:00:00 +0600
 tags:
   - blog
   - pcb
   - kicad
 categories: [PCB, KiCad]
-date: 2026-02-11 15:00:00 +0600
 ---
 🚀 KiCad Tip: Store libraries _in your project folder_ 
 
