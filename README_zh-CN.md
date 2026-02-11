@@ -15,58 +15,60 @@
   </a>
 </p>
 
-## Introduction
+## 简介
 
 [English](/README.md) [简体中文](/README_zh-CN.md)
 
-This is a responsive minimal résumé template made by Crisp, powered by [Jekyll](http://jekyllrb.com/). And we also provide an official [Hexo port](/port-hexo/README.md) for Hexo users.
+极简风格的响应式简历模板，基于 [Jekyll](http://jekyllrb.com/)，可以直接部署在 GitHub Pages 上。
 
-You may config all the data in `yaml` and make it your own résumé. Then, you might use on GitHub Pages, your website, or wherever you want.
+通过配置 `yaml` 文件，就可以完成简历，并部署在网站上或是输出成 PDF。
 
-[DEMO](https://crispgm.github.io/resume/resume.html)
+[示例](https://crispgm.github.io/resume/resume_zh-CN.html)
 
-## Features
+我们现在为 Hexo 用户提供了官方移植的 [Hexo 版本](/port-hexo/README.md)。未来，我们将支持 Hugo 主题。
 
-- Simple, elegant, and minimal design
-- PC and mobile friendly, but it looks better on PC
-- PDF supports and print friendly
-- Flexible and extensible
+## 功能和特点
 
-## Usage
+- 简单、优雅、极简的设计
+- 桌面和移动友好，但桌面上的效果会更好
+- 支持输出 PDF 并且打印机友好
+- 简单的扩展方式
 
-### Local Mode
+## 安装和使用
 
-1. Clone the repo
+### 本地模式
+
+1. 克隆（可以先 fork）
 
    ```shell
    git clone https://github.com/crispgm/resume.git
    ```
 
-2. Install Jekyll
+2. 安装 Jekyll
 
    ```shell
    gem install jekyll
    ```
 
-3. Config your résumé data
+3. 配置简历数据
 
-   The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, **EDUCATION**, **SKILLS**, **EXPERIENCE**, and **PROJECTS** data will be set in `_data/resume.yml`.
+   首先在 `_config.yml` 中配置 `baseurl`，如果需要部署在网站的话。在 `_data/resume.yml` 中填写教育（education）、技能（skills）、工作经验（experience）和项目（projects）。
 
-4. Run and Debug
+4. 运行和预览
 
    ```shell
    jekyll serve
    ```
 
-5. Build
+5. 构建
 
    ```shell
    jekyll build
    ```
 
-### Gem-based Theme
+### Gem 模式
 
-1. Create a `Gemfile`
+1. 创建 `Gemfile`
 
    ```shell
    source "https://rubygems.org"
@@ -74,13 +76,13 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
    gem "jekyll-theme-minimal-resume"
    ```
 
-   And then,
+   并执行，
 
    ```shell
    bundle install
    ```
 
-2. Init `_config.yml`
+2. 初始化 `_config.yml`
 
    ```yaml
    title: Résumé Title
@@ -88,7 +90,7 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
    theme: "jekyll-theme-minimal-resume"
    ```
 
-3. Create a `index.html`
+3. 创建 `index.html`
 
    ```yaml
    ---
@@ -97,11 +99,11 @@ You may config all the data in `yaml` and make it your own résumé. Then, you m
 
    ```
 
-4. Create `_data/resume.yml` and fill in your resume data. [Example data is available here](/_data/resume.ytml).
+4. 创建 `_data/resume.yml` 并填写你的简历数据。[示例数据可以参考这里](/_data/resume.ytml)。
 
-## Data Format
+## 数据格式
 
-### Contact
+### 联系信息
 
 ```yaml
 contact:
@@ -114,17 +116,17 @@ contact:
     link: https://crispgm.github.io/resume/resume.html
 ```
 
-FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is optional, present if you want a link for your web version.
+模板内置了 FontAwesome 图标字体，请使用`fa-`开头的类名作为图标。`link`是可选项，如果需要在 Web 或 PDF 版中支持链接，请填写此项。
 
-## Colors
+## 颜色
 
-There are a set of colorscheme. `color` may be specified in `_config.yml`. The default colorscheme is gray.
+模板内置了一些主题配色，可以通过 `_config.yml` 中的 `color` 进行修改。默认是灰色 Gray。
 
 ```yaml
 color: gray
 ```
 
-Colors powered by [Open-Color](https://yeun.github.io/open-color/):
+基于 [Open-Color](https://yeun.github.io/open-color/) 的配色：
 
 - red
 - pink
@@ -139,25 +141,25 @@ Colors powered by [Open-Color](https://yeun.github.io/open-color/):
 - yellow
 - orange
 
-Colors powered by [Nord](https://www.nordtheme.com/):
+基于 [Nord](https://www.nordtheme.com/) 的配色:
 
 - nord
 
 <img src="screenshots/resume-with-color.png" width="578" />
 
-## Extending Sections
+## 扩展简历内容
 
-1. Add new section in `_data/resume.yml`
+1. 在 `_data/resume.yml` 中增加段落，比如增加显示你的语言水平：
 
    ```yaml
    languages:
-     - name: English
-       proficiency: Professional working proficiency
-     - name: Mandarin Chinese
-       proficiency: Native or bilingual proficiency
+     - name: 英语
+       proficiency: 工作熟练
+     - name: 中文
+       proficiency: 母语
    ```
 
-2. Add section to `_layouts/resume.html`:
+2. 把读取代码加入 `_layouts/resume.html`:
 
    ```html
    <section id="languages">
@@ -175,14 +177,14 @@ Colors powered by [Nord](https://www.nordtheme.com/):
 
 ## Showcases
 
-Feel free to add yours here.
+欢迎在此提交你的简历。
 
 - [David Zhang](https://crispgm.com/resume/)
 
-## Donation
+## 捐助
 
 - [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
 
-## License
+## 协议
 
 [![license](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
