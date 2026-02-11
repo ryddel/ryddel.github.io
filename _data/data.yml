@@ -227,8 +227,8 @@ publications:
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
+  - title: Test
+    link: "test.com"
     authors: Donald E. Knuth
     conference: Addison-Wesley, 1968
 
@@ -281,6 +281,3 @@ skills:
 
   - name: Sketch & Photoshop
     level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
