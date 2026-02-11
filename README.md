@@ -1,188 +1,90 @@
-# Crisp Minimal Résumé
+<a href="https://jekyll-themes.com">
+<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+</a>
 
-<p align="center">
-  <img src="screenshots/resume-desktop.png" width="578" />
-  <img src="screenshots/resume-mobile.png" width="220" />
-</p>
+# Orbit
+> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
+> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
 
-<p align="center">
-  <img src="https://github.com/crispgm/resume/workflows/build/badge.svg" alt="GitHub CI" />
-  <a href="https://badge.fury.io/rb/jekyll-theme-minimal-resume">
-    <img src="https://badge.fury.io/rb/jekyll-theme-minimal-resume.svg" alt="Gem Version" />
-  </a>
-  <a href="https://badge.fury.io/js/hexo-theme-crisp-minimal-resume">
-    <img src="https://badge.fury.io/js/hexo-theme-crisp-minimal-resume.svg" alt="npm version" />
-  </a>
-</p>
+I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
 
-## Introduction
+<table>
+  <tr>
+    <th>Desktop</th>
+    <th>Mobile</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
+    </td>
+    <td>
+        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
+    </td>
+  </tr>
+</table>
 
-[English](/README.md) [简体中文](/README_zh-CN.md)
+## Installation
 
-This is a responsive minimal résumé template made by Crisp, powered by [Jekyll](http://jekyllrb.com/). And we also provide an official [Hexo port](/port-hexo/README.md) for Hexo users.
+* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
+* Go to settings and set master branch as Github Pages source;
+* Your new site should be ready at `https://<username>.github.io/online-cv/`;
+* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
 
-You may config all the data in `yaml` and make it your own résumé. Then, you might use on GitHub Pages, your website, or wherever you want.
+Change all the details from one place: `_data/data.yml`.
 
-[DEMO](https://crispgm.github.io/resume/resume.html)
+### To preview/edit locally with docker
 
-## Features
-
-- Simple, elegant, and minimal design
-- PC and mobile friendly, but it looks better on PC
-- PDF supports and print friendly
-- Flexible and extensible
-
-## Usage
-
-### Local Mode
-
-1. Clone the repo
-
-   ```shell
-   git clone https://github.com/crispgm/resume.git
-   ```
-
-2. Install Jekyll
-
-   ```shell
-   gem install jekyll
-   ```
-
-3. Config your résumé data
-
-   The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, **EDUCATION**, **SKILLS**, **EXPERIENCE**, and **PROJECTS** data will be set in `_data/resume.yml`.
-
-4. Run and Debug
-
-   ```shell
-   jekyll serve
-   ```
-
-5. Build
-
-   ```shell
-   jekyll build
-   ```
-
-### Gem-based Theme
-
-1. Create a `Gemfile`
-
-   ```shell
-   source "https://rubygems.org"
-
-   gem "jekyll-theme-minimal-resume"
-   ```
-
-   And then,
-
-   ```shell
-   bundle install
-   ```
-
-2. Init `_config.yml`
-
-   ```yaml
-   title: Résumé Title
-   baseurl: "/resume/"
-   theme: "jekyll-theme-minimal-resume"
-   ```
-
-3. Create a `index.html`
-
-   ```yaml
-   ---
-   layout: resume
-   ---
-
-   ```
-
-4. Create `_data/resume.yml` and fill in your resume data. [Example data is available here](/_data/resume.ytml).
-
-## Data Format
-
-### Contact
-
-```yaml
-contact:
-  - icon: fa-envelope
-    text: youremail@example.com
-  - icon: fa-phone-square
-    text: your-phone-num
-  - icon: fa-globe
-    text: your-website.com
-    link: https://crispgm.github.io/resume/resume.html
+```sh
+docker-compose up
 ```
 
-FontAwesome iconfont is embedded, so use the `fa-` class name as icon. `link` is optional, present if you want a link for your web version.
+*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
+Changes *_data/data.yml* will be visible after a while.
 
-## Colors
+### Local machine
 
-There are a set of colorscheme. `color` may be specified in `_config.yml`. The default colorscheme is gray.
+* Get the repo into your machine 
 
-```yaml
-color: gray
+```bash
+git clone https://github.com/sharu725/online-cv.git
 ```
 
-Colors powered by [Open-Color](https://yeun.github.io/open-color/):
+* Install required ruby gems
 
-- red
-- pink
-- grape
-- violet
-- indigo
-- blue
-- cyan
-- teal
-- green
-- lime
-- yellow
-- orange
+```bash
+bundle install
+```
 
-Colors powered by [Nord](https://www.nordtheme.com/):
+* Serve the site locally
 
-- nord
+```bash
+bundle exec jekyll serve
+```
 
-<img src="screenshots/resume-with-color.png" width="578" />
+* Navigate to `http://localhost:4000`
 
-## Extending Sections
 
-1. Add new section in `_data/resume.yml`
+## Skins
 
-   ```yaml
-   languages:
-     - name: English
-       proficiency: Professional working proficiency
-     - name: Mandarin Chinese
-       proficiency: Native or bilingual proficiency
-   ```
+There are 6 color schemes available:
 
-2. Add section to `_layouts/resume.html`:
+| Blue | Turquoise | Green |
+|---------|---------|---------|
+| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
 
-   ```html
-   <section id="languages">
-     <div class="section-title">Language</div>
-     <div class="section-content">
-       {% for lang in site.data.resume.languages %}
-       <div class="block">
-         <div class="block-title">{{ lang.name }}</div>
-         <div class="block-content">{{ lang.proficiency }}</div>
-       </div>
-       {% endfor %}
-     </div>
-   </section>
-   ```
+| Berry | Orange | Ceramic |
+|---------|---------|---------|
+| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
 
-## Showcases
+## Credits
 
-Feel free to add yours here.
+Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
 
-- [David Zhang](https://crispgm.com/resume/)
+Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
 
-## Donation
+Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 
-- [Buy Me A Coffee](https://www.buymeacoffee.com/crispgm)
+## Star History
 
-## License
+[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
 
-[![license](https://img.shields.io/github/license/crispgm/resume.svg)](/LICENSE)
