@@ -2,122 +2,57 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Professional Summary
+Detail-oriented Electronics Developer & PCB Designer with expertise in circuit design, analog/digital systems, and embedded applications. Skilled in creating high-quality PCB layouts using Altium and KiCad. Proven success in converting paper schematics, designing ESP32-based sensors, and fixing power supply issues. Recognized for reliability, clear communication, and 100% job success rate.
 
-[Link to another page](./another-page.html).
+## Core Skills
+- ✅ PCB Design  
+- ✅ Circuit Design (Analog/Digital)  
+- ✅ ESP32 & FreeRTOS  
+- ✅ Schematic Conversion (Paper → Digital)  
+- ✅ Component Selection  
+- ✅ Power Supply Design  
+- Tools: KiCad, Altium Designer, Eagle, OrCad  
+- Soft Skills: Collaborative, Feedback-Driven, Transparent  
 
-There should be whitespace between paragraphs.
+## Key Projects
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+🔹 **ESP32 & PIR Motion Sensor PCB**  
+*Aug 2023 – May 2024* | 4.7★  
+Designed a motion detection system using ESP32 and PIR sensor. Delivered functional PCB layout with complete documentation.
 
-# Header 1
+🔹 **Paper Schematic → Altium Conversion**  
+*Jun 2024* | 5.0★  
+Accurately digitized scanned paper schematics into clean, editable Altium designs.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+🔹 **Power Supply Rework**  
+*Feb 2024* | 5.0★  
+Optimized circuit for stability and efficiency. Client feedback: *"Very skilled and fast. Will hire again."*
 
-## Header 2
+## Highlights
+- ✅ 100% Job Success Rate  
+- ✅ Top Rated Plus (Large Contracts)  
+- ✅ 4.9–5.0 Avg. Client Rating  
+- ✅ Clear Communication & Transparency 
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Professional Experience
 
-### Header 3
+Freelancer
+Upwork | January 20XX - Present
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+    Developed custom PCB layouts for various industries including consumer electronics, automotive, and healthcare.
+    Managed end-to-end project lifecycle, from initial concept through design, prototyping, testing, and production.
+    Collaborated with clients to ensure designs meet specifications and functional requirements.
+    Achieved a 100% Job Success rating and recognized as Top Rated Plus for reliability and quality.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Electronics Engineer
+[Previous Company Name] | [Month/Year] - [Month/Year]
 
-#### Header 4
+    Designed and implemented electronic solutions for [specific applications or industries].
+    Conducted rigorous testing and debugging to meet safety and performance standards.
+    Assisted in mentoring junior engineers and interns in PCB design principles.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Education
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Bachelor of Science in Electronics Engineering
+[Your University Name] | [Year]
