@@ -1,9 +1,9 @@
-title: Aleksei R.
+title: Alex Ridel
 logo: /assets/img/logo.png
-email: ryddel at mailbox dot com
+email: ryddel at mailbox dot org
 description: Electronics Developer | PCB Designer
 show_downloads: false
-google_analytics: G-ZLK2GHB055
+#google_analytics: G-ZLK2GHB055
 color-scheme: auto
 plugins:
   - jekyll-sitemap
