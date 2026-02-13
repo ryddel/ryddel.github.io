@@ -2,15 +2,19 @@
 layout: default
 ---
 
-## Professional Summary
-Detail-oriented Electronics engineer with with 15+ years of experience in measurement and communication systems. I have extensive experience in developing electronic devices from initial concept to final product. In my projects, I am ready to apply my skills in analog and digital electronics, including microcontrollers and FPGAs.
+## Hi There! 
 
-- End-to-end design of electronic devices, encompassing concept, simulation, PCB layout, and final product validation
-Proficient in analog and digital circuit design, including measurement systems, power electronics, and high-speed interfaces
-- Skilled in microcontroller (STM32, AVR, ESP32, RP2040) and FPGA-based system design, with experience in interface protocols (SPI, I2C, UART, USB, Ethernet, PCIe, LVDS)
-- Expertise in multi-layer PCB design: BGA, Micro-BGA, QFN, LGA; blind/buried vias; controlled impedance; differential pairs; matched traces; and optimized topologies (daisy chain, star)
-- Experienced in generating manufacturing-ready files (BOM, Gerber, NC Drill, assembly drawings) for high-volume production
-- Hands-on experience with prototyping, assembly, and debugging using embedded software and hardware tools
+I'm an Electronics Engineer with over 15 years of practical experience in designing and building electronic devices. I love turning concepts into working tech, and I’ve worked through every step of the process: sketching out designs, simulating circuits, laying out PCBs, and making sure everything works perfectly when it comes together.
+
+I’m especially strong in both analog and digital electronics — whether it’s designing precision measurement systems, power supplies, or high-speed communication links. I've used a wide range of microcontrollers (like STM32, ESP32, RP2040) and FPGAs to build smart, responsive systems that talk to each other using protocols like SPI, I2C, UART, USB, Ethernet, and even PCIe or LVDS.
+
+When it comes to PCBs, I’m used to working with complex designs — including BGA, Micro-BGA, QFN, and LGA components. I know how to handle blind/buried vias, maintain controlled impedance, pair up differential traces, and make sure everything runs smoothly in real-world conditions (like using daisy-chain or star topologies).
+
+I also make sure that all the files needed for mass production are ready — BOMs, Gerber files, drill files, and assembly drawings — so manufacturers can get started without any hiccups.
+
+And let’s be honest: I love tinkering. Whether it's building a prototype, soldering something new, or debugging with tools on hand, I enjoy the hands-on challenge of making things work.
+
+It’s all about turning ideas into reality — one circuit at a time! 🔧✨
 
 ## Core Skills
 - ✅ PCB Design  
