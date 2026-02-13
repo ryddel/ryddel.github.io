@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Professional Summary
-Detail-oriented Electronics engineer with with 15+ years of experience in measurement and communication systems. I have extensive experience in developing electronic devices from initial concept to final product. In my projects, I am ready to apply my skills in analog and digital electronics, including microcontrollers and FPGAs.
+Detail-oriented Electronics engineer with 15+ years of experience in measurement and communication systems. I have extensive experience in developing electronic devices from initial concept to final product. In my projects, I am ready to apply my skills in analog and digital electronics, including microcontrollers and FPGAs.
 
 - End-to-end design of electronic devices, encompassing concept, simulation, PCB layout, and final product validation
 Proficient in analog and digital circuit design, including measurement systems, power electronics, and high-speed interfaces
@@ -22,7 +22,6 @@ Proficient in analog and digital circuit design, including measurement systems, 
 - 🔧 Tools: KiCad, Altium Designer, Eagle, OrCad  
 - 🤝 Soft Skills: Collaborative, Feedback-Driven, Transparent  
 
-
 ## Some last Projects
 
 🔹 **ESP32 & PIR Motion Sensor PCB**  
@@ -39,7 +38,35 @@ Optimized circuit for stability and efficiency. Client feedback: _"Very skilled 
 
  
 
+## Professional Experience
 
+### Independent Electronic Engineer | _2018 - Present_
+```
+Developed custom PCB layouts for various industries including consumer electronics, automotive, and healthcare.
+Managed end-to-end project lifecycle, from initial concept through design, prototyping, testing, and production.
+Collaborated with clients to ensure designs meet specifications and functional requirements.
+Achieved a 100% Job Success rating and recognized as Top Rated Plus for reliability and quality.
+```
 
+### Electronic Design Engineer | T-Soft | _2015 - 2018_
+```
+Designed and implemented electronic solutions for communication systems.
+Conducted rigorous testing and debugging to meet safety and performance standards.
+Assisted in mentoring junior engineers and interns in PCB design principles.
+```
+
+### Electronic Design Engineer | TIK | _2009 - 2015_
+```
+Designed and deployed electronic solutions for measurement systems, ensuring compliance with safety and performance standards through thorough testing and debugging. Mentored junior engineers and interns in PCB design fundamentals.
+```
+
+## Education
+
+Master's degree in Physics |
+Perm State University | _2010_
+
+## Languages
+- **English:** _Advanced_
+- **Russian:** _Native_
 
 
